@@ -1,4 +1,4 @@
-t = float(input("Enter temperature in celsius: "));
+'''t = float(input("Enter temperature in celsius: "));
 if t < -273.15:
     print("Temperature is invalid");
 elif t  == -273.15 <= t < 0:
@@ -6,4 +6,5 @@ elif t  == -273.15 <= t < 0:
 elif 0 < t < 100:
     print("Temperature is in the normal range");
 else:
-    print("Temperature is above the boiling point");
+    print("Temperature is above the boiling point");'''
+
