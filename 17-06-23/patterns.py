@@ -239,7 +239,7 @@ for i in range(n):
     print()'''
 
 #25.
-n = int(input("enter the rows: ")) 
+'''n = int(input("enter the rows: ")) 
 for i in range(0,n):
     if i == 0:
         print("* " * n)
@@ -249,6 +249,6 @@ for i in range(0,n):
     else:
         left_spaces = "  " * (i)          
         hollow_spaces = "  " * (n-i-2)
-        print(left_spaces+"* " +hollow_spaces + "* " )
+        print(left_spaces+"* " +hollow_spaces + "* " )'''
 
 
