@@ -59,6 +59,31 @@ for number in range(first_value,sec_value+1):
             print(number)'''
 
 #9.Display Fibonacci series up to 10 terms.
+'''list=[0,1]
+for i in range(1,9):
+    l1=list[-1]+list[-2]
+    list.append(l1)
+print(list)'''
+
+'''def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n-1)+(n-2)
+n=int(input("enter the number: "))
+result = fibonacci(n)
+print(result)'''
+
+'''num = 10
+n1,n2 = 0,1
+print(n1,n2,end=" ")
+for i in range(2,num):
+    n3 = n1+n2
+    n1 = n2
+    n2 = n3
+    print(n3, end=" ")
+print()'''
+
+
 #10.Find the factorial of a given number.(Ex:-The factorial of 5,5*4*3*2*1)
 '''num = int(input("enter the number: "))
 factorial = 1
@@ -84,7 +109,7 @@ for i in range(0, len(arr), 2):
     print(arr[i]);'''
 
 #13.Calculate the cube of all numbers from 1 to a given number.
-'''number = float(input(" Please Enter any numeric Value : "))
+'''number = float(input(" Please Enter the number: "))
 cube = number**3
 print(cube)'''
 
@@ -109,7 +134,7 @@ print("Sum of " + str(n) + " Numbers = " + str(sum))'''
 append_middle("sravya", "teja")'''
 
 #16.Arrange string characters such that lowercase letters should come first.
-'''a=input("enter the string: ")
+'''  a=input("enter the string: ")
 s="".join(sorted(a))
 print(s[::-1])'''
 
@@ -141,7 +166,7 @@ for char in inputString:
         numberDigits+=1
 average=sumDigits/numberDigits 
 print(str(sumDigits))
-print("%.1f" % average)'''
+print(average)'''
 
 #20.Write a program to count occurrences of all characters within a string.
 '''string = input("Please enter your own String : ")
@@ -171,6 +196,14 @@ while ("" in str_list):
 print(str_list)'''
 
 #24.Removal all characters from a string except integers.
+'''string=input("enter the string: ")
+length = len(string)
+string1=""
+for i in range(len(string)):
+    if string[i].isdigit():
+        string1 += string[i]
+print(string1)'''
+
 #25.Reverse a list in Python.
 '''lst = [10, 11, 12, 13, 14, 15]
 lst.reverse()
@@ -202,10 +235,10 @@ l[0] = 'Sravs'
 print(l)'''
 
 #30.Remove all occurrences of a specific item from a list.
-mylist = [1,2,3,1,4,3,1,4,5,1,6,7,1,8,9,1,0,1]
+'''mylist = [1,2,3,1,4,3,1,4,5,1,6,7,1,8,9,1,0,1]
 removing_item = 1
 for item in mylist:
 	if(item==removing_item):
 		mylist.remove(removing_item)
-print(mylist)
+print(mylist)'''
     
